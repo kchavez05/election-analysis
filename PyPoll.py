@@ -98,15 +98,15 @@ with open(file_to_load) as election_data:
             # Set winning_count equal to candidate_name
                 winning_candidate = candidate_name
         
-            winning_candidate_summary = (
-                f'--------------------\n'
-                f'Winner: {winning_candidate}\n'
-                f'Winning Vote Count: {winning_count:,}\n'
-                f'Winning Percentage: {winning_percentage:.1f}%\n'
-                f'--------------------\n')
+        winning_candidate_summary = (
+            f'--------------------\n'
+            f'Winner: {winning_candidate}\n'
+            f'Winning Vote Count: {winning_count:,}\n'
+            f'Winning Percentage: {winning_percentage:.1f}%\n'
+            f'--------------------\n')
             
             #Print winning candidate summary to terminal
-            print(winning_candidate_summary)
+        print(winning_candidate_summary)
             
         # Save the winning candidate's name to the text file.
         txt_file.write(winning_candidate_summary)
