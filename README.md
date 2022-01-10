@@ -8,7 +8,9 @@ We have received a dataset of votes from a Colorado congressional election and h
 3. Calculate the count of votes for each candidate
 4. Calculate the percentage of votes for each candidate
 5. Calculate the winner of the election
-6. Write the results to a .txt file
+6. Calculate the turnout for each county
+7. Calculate the county with the largest turnout
+8. Write the results to a .txt file
 
 ## Resources
  - Data Source: election_results.csv
@@ -29,6 +31,11 @@ The analysis of election data show that:
   - Winner: Diana DeGette
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8%
+5. The county vote totals were:
+  - Jefferson: 10.5% (38,855)
+  - Denver: 82.8% (306,055)
+  - Arapahoe: 6.7% (24,801
+7. The county with the largest turnout was: Denver
 
 ## Challenges
-No challenges were encountered during this analysis.  A potential challenge could have been corrupted or incomplete data.
+No challenges were encountered during this analysis (except for me declaring variables as strings instead of integers and banging my head against a wall).  A potential challenge could have been corrupted or incomplete data.
