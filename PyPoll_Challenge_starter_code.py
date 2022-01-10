@@ -112,12 +112,12 @@ with open(file_to_save, "w") as txt_file:
         if cvotes > county_largest:
             county_largest = cvotes
             county_turnout = (
+                f'-------------------------\n'
                 f'Largest county turnout: {county_name}\n'
-                f'--------\n')
+                f'-------------------------\n')
 
     # 7: Print the county with the largest turnout to the terminal.
-    print(
-        f'Largest county turnout: {county_turnout}\n')
+    print(county_turnout)
 
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(county_turnout)
